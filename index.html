@@ -15,9 +15,17 @@
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             gap: 20px;
-            padding: 20px;
-          background: green;
+            padding: 20px;          
+          
+    background-color: #0ca37f;
+    position: sticky;
+    top: 0;
+    font-family: "norte1" !important;
+    font-weight: 500;
+    z-index: 1111;
         }
+      
+
 
         .left-column {
             grid-column: 1 / 2;
@@ -58,8 +66,8 @@
 .new-section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    padding: 20px;
+    gap: 0px;
+    padding: 0px;
 }
 
 .column {
@@ -68,15 +76,42 @@
 
 .image-container {
     overflow: hidden;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 0px;
 }
+      
 
 img {
     width: 100%;
     height: auto;
     display: block;
 }
+            
+      @media (min-width: 100px) and (max-width: 819px)
+{
+.new-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0px;
+    padding: 0px;
+}
+}
+      
+              .container2 {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            padding: 20px;
+          z-index: 999;
+
+        }
+
+        .left-column2 {
+            grid-column: 1 / 2;
+        }
+
+        .right-column2 {
+            grid-column: 2 / 3;
+        }
 
     </style>
 </head>
