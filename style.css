@@ -111,8 +111,7 @@ END Glitch hello-app default styles
 ******************************************************************************/
 
 body {
-  font-family: HK Grotesk;
-  background-color: var(--color-bg);
+  background: linear-gradient(142deg, #004d4d, #034343);
 }
 
 /* Page structure */
@@ -121,13 +120,9 @@ body {
   display: grid;
   place-items: center;
   margin: 0 1rem;
+  background: linear-gradient(142deg, #004d4d, #034343);
 }
-.content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
+
 
 /* Very light scaling for our illustration */
 .title {
